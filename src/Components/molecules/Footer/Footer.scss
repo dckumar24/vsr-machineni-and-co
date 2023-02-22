@@ -1,0 +1,39 @@
+.footer {
+    // position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer__social a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.2s ease;
+  
+    &:hover {
+      color: #aaa;
+    }
+  }
+  
+  .footer__text {
+    font-size: 14px;
+    text-align: center;
+  }
+  
